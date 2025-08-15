@@ -39,11 +39,11 @@ Hi! My name is Salma Zaghloul.
 
 ### Class Progress
 
-<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
-    Snake Game
+<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #1c442cff">
+    <span style="color:  #abeb93ff">Snake Game</span>
 </a>
-<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
-    <span style="color: #000000">Turtle</span>
+<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #98f4c2ff">
+    <span style="color: #204812ff">Turtle</span>
 </a>
 
 <br>
