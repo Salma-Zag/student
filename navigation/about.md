@@ -58,13 +58,15 @@ Flags are made using Wikipedia images
     var container = document.getElementById("grid_container"); // This container connects to the HTML div
 
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
-    var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
+
+    <img src="/images/about/missionary.jpg" alt=
+
     var living_in_the_world = [
-        {"flag": "/images/Pics/albion.webp", "greeting": "Favorite color;", "description": "Purple"},
-        {"flag": "/images/Pics/Flag_of_Colorado.png", "greeting": "Where I was born;", "description": "Colorado"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "I'm a soccer player;", "description": "For Albion SC"},
-        {"flag": "/images/Pics/nerd.jpg", "greeting": "I'm a big geek;", "description": "I love things like Marvel and chess."},
-    ];
+        {"flag": "/images/Pics/albion.jpg", "greeting": "Purple", "description": "Favorite color;"},
+        {"flag": "/images/Pics/Flag_of_Colorado.png", "greeting": "Colorado", "description": "Where I was born;"},
+        {"flag": "/images/Pics/albion.jpg", "greeting": "For Albion SC", "description": "I'm a soccer player;"},
+        {"flag": "/images/Pics/nerd.jpg", "greeting": "I love things like Marvel and chess", "description": "I'm a big geek;"},
+        ];
 
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
@@ -76,7 +78,7 @@ Flags are made using Wikipedia images
         gridItem.className = "grid-item";  // This class name connects the gridItem to the CSS style elements
         // Add "img" HTML tag for the flag
         var img = document.createElement("img");
-        img.src = http_source + location.flag; // concatenate the source and flag
+        img.src = location.flag; // concatenate the source and flag
         img.alt = location.flag + " Flag"; // add alt text for accessibility
 
         // Add "p" HTML tag for the description
@@ -106,7 +108,9 @@ Here is what I did at those places
 - Though, only a couple years later my family moved counties within Virginia. I switched both schools and soccer clubs.
 - I was living my best life in Loudoun County Virginia before Covid hit- Online school was miserable for me.
 - As soon as the pandemic had subsided, my dad landed within the state and we had to switch counties again. It was always tough for me to adjust, but you learn.
-- I spent 5th and 6th grade in a county called Ashburn, making even more close friends. They were really starting to add up, and I even got to visit the ones I had moved away from. 
+- I spent 5th and 6th grade in a county called Ashburn, making even more close friends. They were really starting to add up, and I even got to visit the ones I had moved away from.
+-When I had finally began to accept the situation I was in, my family decided to move again. But this time, across the country, to the west coast. To California.
+-It was one of the scariest experiences I had ever gone through, but here I am now. After so many adventures throughout the past two years, I'm excited to continue pursuing my education.
 
 ### Culture, Family, and Fun
 
