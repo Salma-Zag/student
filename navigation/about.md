@@ -59,14 +59,14 @@ Flags are made using Wikipedia images
 
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
 
-    <img src="/images/about/missionary.jpg" alt=
+
 
     var living_in_the_world = [
         {"flag": "/images/Pics/albion.jpg", "greeting": "Purple", "description": "Favorite color;"},
         {"flag": "/images/Pics/Flag_of_Colorado.png", "greeting": "Colorado", "description": "Where I was born;"},
         {"flag": "/images/Pics/albion.jpg", "greeting": "For Albion SC", "description": "I'm a soccer player;"},
         {"flag": "/images/Pics/nerd.jpg", "greeting": "I love things like Marvel and chess", "description": "I'm a big geek;"},
-        ];
+];
 
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
@@ -112,13 +112,17 @@ Here is what I did at those places
 -When I had finally began to accept the situation I was in, my family decided to move again. But this time, across the country, to the west coast. To California.
 -It was one of the scariest experiences I had ever gone through, but here I am now. After so many adventures throughout the past two years, I'm excited to continue pursuing my education.
 
-### Culture, Family, and Fun
+### More facts about me
 
-Everything for me, as for many others, revolves around family and faith.
+Here are some more random things about me!
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
+- I'm a dog person
+- I have always wanted to go to Singapore or Tokyo.
+- I'm an Android user (Yes, they're better.)
+- I love playing video games.
+- I love art and drawing.
+- I hate pineapple on pizza.
+- Listening to music is one of my favourite hobbies.
 
 <comment>
 Gallery of Pics, scroll to the right for more ...
